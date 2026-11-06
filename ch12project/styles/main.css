@@ -1,0 +1,99 @@
+/*
+ * Author: Michael Barnes
+ * Date: November 6, 2026
+ * Chapter 12 - Database Search Project
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #eef2f7;
+    color: #263445;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 760px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: #ffffff;
+    border: 1px solid #d5dce5;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+h1 {
+    color: #183b63;
+    margin-top: 0;
+}
+
+.search-panel {
+    margin-top: 30px;
+    padding: 24px;
+    background-color: #f5f8fc;
+    border: 1px solid #d5dce5;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 18px;
+    border: 1px solid #aeb9c7;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    width: auto;
+    min-width: 120px;
+    padding: 12px 22px;
+    margin-bottom: 0;
+    background-color: #245b91;
+    border: 1px solid #245b91;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #183b63;
+}
+
+.message {
+    margin: 24px 0;
+    padding: 16px;
+    border: 1px solid #d5dce5;
+    border-radius: 6px;
+}
+
+.message.success {
+    color: #176536;
+    background-color: #e9f7ee;
+    border-color: #a8d8b8;
+}
+
+.message.error {
+    color: #a12626;
+    background-color: #fff0f0;
+    border-color: #e6b3b3;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: #245b91;
+    font-weight: bold;
+}
